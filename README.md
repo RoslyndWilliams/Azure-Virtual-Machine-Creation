@@ -124,5 +124,5 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 <h3>Tip</h3>
 
--  If you want to save your free $200 credits, make sure you delete ALL your resources and resource groups after finishing!    
-  
+-  If you want to save your free $200 credits, make sure you delete ALL your resources and resource groups after finishing!
+-  Want to learn how to install and configure an open-source ticketing system and create and resolve a ticket? Click [here](https://github.com/RoslyndWilliams/osTicket--Prerequisites-and-Installation) to enter Part 1 of my three-part osTicket Install/Configuration/Ticket-Creation tutorial series. 
