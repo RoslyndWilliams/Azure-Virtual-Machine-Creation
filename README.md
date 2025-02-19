@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/4wqxHID.png" height="40%" width="60%" alt="Microsoft Azure Logo"/>
 </p>
 
-<h1>Microsoft Azure</h1>
+<h1>Azure - Virtual Machine Creation</h1>
 Azure is a cloud computing platform and an online portal that allows you to access and manage cloud services and resources provided by Microsoft. To get access to these resources and services, all you need to have is an active internet connection and the ability to connect to the Azure portal. This guide will demonstrate how to create an Azure account and create a virtual machine.
 
 <h2>Requirements</h2>
@@ -31,7 +31,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 <h3>Step 2: Create a Resource Group</h3>
 
-- Go to the search bar at the top and search "resource group"
+- Go to the search bar at the top and search for "resource group"
 - Select Create Resource Group
 - You will need to name the resource group and select the region 
 - Select Review + Create on the lower left
@@ -45,7 +45,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 - Go to the search bar and search "storage account"
 - Select Create Storage Account
-- You will need to select the same resource group, the same region, and create a name for the storage group
+- You will need to select the same resource group and region selected in Step 2 and create a name for the storage group
     - For this example, we will name the storage group "rglab1"
     - Use the same resource group and region as step 2
 - Select Review, then Create
@@ -59,8 +59,8 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
      
 - Go to the search bar and search "virtual machine"
 - Select Create, then select Azure Virtual Machine
-- You will need to select the same resource group, the same region, and create a name for the virtual machine
-    - For thise example, we will name the virtual machine "virtualmachine"
+- You will need to select the same resource group and region selected in Step 3 and create a name for the virtual machine
+    - For this example, we will name the virtual machine "virtualmachine"
     - Use the same resource group and region as steps 2 and 3
 
 <p align="center">
@@ -71,10 +71,10 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 
 * You will then need to select the image and disk size
-    - For image we will use Windows 10 Pro
-    - For size, select See All Sizes and select Standard D2as_v4
+    - For the image, we will use Windows 10 Pro
+    - For the size, select See All Sizes and select Standard D2as_v4
 * You will then need to make a username and password
-    - For username, we will use "labuser"
+    - For the username, we will use "labuser"
     - Create your own password
 * Click the box under licensing and finally click Review + Create 
 
@@ -88,7 +88,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 <h3>Step 5: Connect to the Virtual Machine</h3>
 
 - First, you will need to find the public IP address of your virtual machine
-   - Select the virtual machine we created and the public IP address will be on the right-hand side of the screen
+   - Select the virtual machine we created, and the public IP address will be on the right-hand side of the screen
    - Copy the public IP address
 
 <p align="center">
@@ -104,7 +104,7 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 * Windows Users
      - Open and use Remote Desktop
      - Paste the public IP Address and select Connect
-     - Enter the username and password from step 4
+     - Enter the username and password from Step 4
      - Select OK
   
      
